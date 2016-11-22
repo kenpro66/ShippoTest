@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{539EDB1D-766F-45B8-8931-8C3D75BB3626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3DFF8C5-5240-47C9-B003-6F922603D5B5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ShippoTest", "src\ShippoTest\ShippoTest.xproj", "{6FAA59EA-E92E-4498-88E4-75147928D87D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FAA59EA-E92E-4498-88E4-75147928D87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAA59EA-E92E-4498-88E4-75147928D87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAA59EA-E92E-4498-88E4-75147928D87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FAA59EA-E92E-4498-88E4-75147928D87D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FAA59EA-E92E-4498-88E4-75147928D87D} = {539EDB1D-766F-45B8-8931-8C3D75BB3626}
+	EndGlobalSection
+EndGlobal
